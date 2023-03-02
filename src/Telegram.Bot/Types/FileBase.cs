@@ -25,6 +25,6 @@ namespace Telegram.Bot.Types
         /// Optional. File size, if known
         /// </summary>
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
-        public int FileSize { get; set; }
+        public long? FileSize { get; set; }
     }
 }
